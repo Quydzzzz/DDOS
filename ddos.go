@@ -1,7 +1,7 @@
 /**
 	* hope it helps u 							*
-	* By Nikita Vtorushin<n.vtorushin@inbox.ru> *
-	* @nikitavoryet 							*
+	* By CQuy 
+	*  Chúc sài vv							*
 	* GoLang spam atack for scammers			*
 **/
 
@@ -26,7 +26,7 @@ type any interface{}
 func main() {
 	attackUrl := flag.String("url", "", "attackUrl spam attack")
 	method := flag.String("method", "POST", "method for attack (POST/GET)")
-	count := flag.Int("count", 10000, "count for attack")
+	count := flag.Int("count", 25000, "count for attack")
 	_data := flag.String("data", ``, "data for attack")
 	flag.Parse()
 
@@ -49,7 +49,7 @@ func main() {
 		}
 		fmt.Println("Done.", "Good: ", completeCount, "Error: ", errorCount)
 	} else {
-		fmt.Println("Set variable -url")
+		fmt.Println("Nhập url bằng lệnh -url")
 	}
 }
 
@@ -97,7 +97,7 @@ func getData(method string, data string) url.Values {
 /**
  * Format JSON to url.Values
  * Example JSON:
- * {"email": "test@inbox.ru","password": "123test321"}
+ * {"email": "DITCUM","password": "lollll"}
  */
 func getFormatPostData(body []byte) url.Values {
 	m := map[string]string{}
