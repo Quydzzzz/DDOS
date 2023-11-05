@@ -47,7 +47,7 @@ func main() {
 			go startAttack(*attackUrl, *method, data)
 			time.Sleep(time.Millisecond)
 		}
-		fmt.Println("Done.", "Good: ", completeCount, "Error: ", errorCount)
+		fmt.Println("Xong rồi á !.", "Good: ", completeCount, "Error: ", errorCount)
 	} else {
 		fmt.Println("Nhập url bằng lệnh -url")
 	}
