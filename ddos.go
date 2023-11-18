@@ -26,7 +26,7 @@ type any interface{}
 func main() {
 	attackUrl := flag.String("url", "", "attackUrl spam attack")
 	method := flag.String("method", "POST", "method for attack (POST/GET)")
-	count := flag.Int("count", 50000, "count for attack")
+	count := flag.Int("count", 25000, "count for attack")
 	_data := flag.String("data", ``, "data for attack")
 	flag.Parse()
 
